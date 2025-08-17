@@ -1,4 +1,4 @@
-/*Displaing 1234 using of 8pins for 7segment 
+/*Displaing any number 0000 to 9999 using of 8pins for 7segment 
 And 4 pins for digit seletion*/
 
 void init_port(void);
