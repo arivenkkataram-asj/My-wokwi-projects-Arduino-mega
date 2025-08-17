@@ -45,7 +45,7 @@ void loop(){
 }
 ```
 ## 📸 Demo (Simulation)
-![20250817-1323-59 6653235](https://github.com/user-attachments/assets/e3a5d908-c776-4a0b-825b-82b2c3b676c4)
+![20250817-1323-59 6653235]([https://github.com/user-attachments/assets/e3a5d908-c776-4a0b-825b-82b2c3b676c4](https://github.com/arivenkkataram-asj/My-wokwi-projects-Arduino-mega/blob/main/single_7segment_display/Simulation_output_gif.gif))
 
 
 ## 📚 Learning Takeaways
@@ -62,4 +62,5 @@ void loop(){
 2. Common Cathode 7-Segment Display
 
 3. Jumper Wires
+
 
