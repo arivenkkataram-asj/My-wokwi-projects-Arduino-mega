@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "author": "ARIVENKKATARAM ASJ",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": -66.6, "left": -22.8, "attrs": {} },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": 225.78,
+      "left": 187.48,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg2",
+      "top": 225.78,
+      "left": 235.48,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg3",
+      "top": 225.78,
+      "left": 283.48,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg4",
+      "top": 225.78,
+      "left": 331.48,
+      "attrs": { "common": "cathode" }
+    }
+  ],
+  "connections": [
+    [ "sevseg1:A", "mega:A0", "green", [ "v-18.36", "h-38.4" ] ],
+    [ "sevseg1:B", "mega:A1", "green", [ "v-27.96", "h-28.8" ] ],
+    [ "sevseg1:C", "mega:A2", "green", [ "v48", "h-86.4", "v-153.6", "h76.8" ] ],
+    [ "sevseg1:D", "mega:A3", "green", [ "v38.4", "h-57.6", "v-153.6", "h67.2" ] ],
+    [ "sevseg1:E", "mega:A4", "green", [ "v19.2", "h-67.2", "v-144", "h96" ] ],
+    [ "sevseg1:F", "mega:A5", "green", [ "v-75.96", "h28.8" ] ],
+    [ "sevseg1:G", "mega:A6", "green", [ "v-85.56", "h48" ] ],
+    [ "sevseg1:DP", "mega:A7", "green", [ "v67.2", "h-115.2", "v-201.6", "h134.4" ] ],
+    [ "sevseg2:A", "sevseg3:A", "#8f4814", [ "v-27.96", "h38.4" ] ],
+    [ "sevseg3:A", "sevseg4:A", "#8f4814", [ "v-27.96", "h38.4" ] ],
+    [ "sevseg2:B", "sevseg3:B", "red", [ "v-18.36", "h38.4" ] ],
+    [ "sevseg3:B", "sevseg4:B", "red", [ "v-18.36", "h48" ] ],
+    [ "sevseg2:G", "sevseg3:G", "orange", [ "v-37.56", "h48" ] ],
+    [ "sevseg3:G", "sevseg4:G", "orange", [ "v-37.56", "h48" ] ],
+    [ "sevseg2:F", "sevseg3:F", "gold", [ "v-47.16", "h48" ] ],
+    [ "sevseg3:F", "sevseg4:F", "gold", [ "v-47.16", "h48" ] ],
+    [ "sevseg1:A", "sevseg2:A", "#8f4814", [ "v-27.96", "h48" ] ],
+    [ "sevseg1:B", "sevseg2:B", "red", [ "v-18.36", "h48" ] ],
+    [ "sevseg1:F", "sevseg2:F", "gold", [ "v-47.16", "h48" ] ],
+    [ "sevseg1:G", "sevseg2:G", "orange", [ "v-37.56", "h48" ] ],
+    [ "sevseg1:DP", "sevseg2:DP", "green", [ "v67.2", "h57.6" ] ],
+    [ "sevseg2:DP", "sevseg3:DP", "green", [ "v67.2", "h48" ] ],
+    [ "sevseg3:DP", "sevseg4:DP", "green", [ "v67.2", "h57.6" ] ],
+    [ "sevseg1:C", "sevseg2:C", "green", [ "v48", "h48" ] ],
+    [ "sevseg2:C", "sevseg3:C", "green", [ "v48", "h48" ] ],
+    [ "sevseg3:C", "sevseg4:C", "green", [ "v48", "h48" ] ],
+    [ "sevseg1:D", "sevseg2:D", "green", [ "v38.4", "h48" ] ],
+    [ "sevseg2:D", "sevseg3:D", "green", [ "v38.4", "h48" ] ],
+    [ "sevseg3:D", "sevseg4:D", "green", [ "v38.4", "h48" ] ],
+    [ "sevseg1:E", "sevseg2:E", "green", [ "v19.2", "h48" ] ],
+    [ "sevseg2:E", "sevseg3:E", "green", [ "v19.2", "h48" ] ],
+    [ "sevseg3:E", "sevseg4:E", "green", [ "v19.2", "h48" ] ],
+    [ "sevseg1:COM.2", "mega:A8", "black", [ "h0", "v-56.76", "h57.6" ] ],
+    [ "sevseg2:COM.2", "mega:A9", "black", [ "h0", "v-37.56", "h19.2" ] ],
+    [ "sevseg3:COM.2", "mega:A10", "black", [ "h0", "v-56.76", "h-19.2" ] ],
+    [ "sevseg4:COM.2", "mega:A11", "black", [ "h0", "v-66.36", "h-57.6" ] ]
+  ],
+  "dependencies": {}
+}
