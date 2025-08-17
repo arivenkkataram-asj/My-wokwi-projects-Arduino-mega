@@ -15,7 +15,8 @@ Pins from the Arduino are connected directly to the 7-segment display segments.
 - Arduino **GND** → **Display common cathode**
 
 ---
-
+## Wokwi Project Link 
+> https://wokwi.com/projects/439441215363052545
 ## ⚙️ Code Explanation
 
 The code is written in **bare-metal C** style by directly configuring registers:
@@ -55,13 +56,15 @@ https://github.com/user-attachments/assets/ba911413-10a2-466e-bae7-feb2ba3faa94
 -->Understanding bare-metal programming (direct register manipulation).
 
 
-##🔧 Requirements
+## 🔧 Requirements
 
 1. Arduino Mega 2560
 
 2. Common Cathode 7-Segment Display
 
 3. Jumper Wires
+
+## For online tool - Wokwi
 
 
 
